@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Maquina expendedora</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/mdb.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/mdb.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
+</head>
+<body>
+<div class="container">
+	<div align="center">
+		<h1> Máquina Dispensadora </h1>
+	</div>
+		<div class="row">
+			<div class="col-lg-3 m-auto" align="center">
+				<div class="card">
+		    	<!--Card image-->  
+				    <img class="img-fluid" src="images/papa.jpg" alt="Card image cap">
+				    <!--Card content-->
+				    <div class="card-body">
+				        <!--Title-->
+				        <p id="et"> A1 </p>
+				        <h4 class="card-title">Papa Pollo Margarita</h4>
+				        <!--Text-->
+				        <div id="disp_papa">
+				        	Disponibles : 0
+				        </div>
+				        <p class="card-text">
+				        	Precio : $ 1.300
+				        </p>
+				        <a href="#" onclick="comprando_papas()" class="btn btn-primary">Comprar</a>
+						<a href="#" onclick="abasteciendo_papas()" class="btn btn-success">Abastecer</a>
+				    </div>
+
+				</div>
+			</div>
+
+			<div class="col-lg-3 m-auto" align="center">
+				<div class="card">
+		    	<!--Card image-->
+		    	
+				    <img class="img-fluid" src="images/jugo.jpeg" alt="Card image cap">
+
+				    <!--Card content-->
+				    <div class="card-body">
+				        <!--Title-->
+				        <p id="et"> B2 </p>
+				        <h4 class="card-title">Jugo Hit Frutos Tropicales</h4>
+				         <div id="disp_jugo">
+				        	Disponibles : 0
+				        </div>
+				        <p class="card-text">
+				        	Precio : $ 2.000
+				        </p>
+				        <a href="#" onclick = "comprando_jugos()" class="btn btn-primary">Comprar</a>
+				        <a href="#" onclick = "abasteciendo_jugos()" class="btn btn-success">Abastecer</a>
+				    </div>
+
+				</div>
+			</div>
+
+			<div class="col-lg-3 m-auto" align="center">
+				<div class="card">
+		    	<!--Card image-->
+		    		
+				    <img class="img-fluid" src="images/jet.jpg" alt="Card image cap">
+				    <!--Card content-->
+				    <div class="card-body">
+				        <!--Title-->
+				        <p id="et"> C3 </p>
+				        <h4 class="card-title">Chocolatina Jet Pequeña</h4>
+				         <div id="disp_choco">
+				        	Disponibles : 0
+				        </div>
+				        <p class="card-text">
+				        	Precio : $ 500
+				        </p>
+				        <a href="#" onclick= "comprando_chocolates()" class="btn btn-primary">Comprar</a>
+				        <a href="#" onclick="abasteciendo_chocolates()" class="btn btn-success">Abastecer</a>
+				    </div>
+
+				</div>
+			</div>
+
+			<div class="col-lg-3 m-auto" align="center">
+				<div class="card">
+		    	<!--Card image-->
+		    		
+				    <img class="img-fluid" src="images/galleta.png" alt="Card image cap">
+
+				    <!--Card content-->
+				    <div class="card-body">
+				        <!--Title-->
+				        <p id="et"> D4 </p>
+				        <h4 class="card-title">Galleta Festival Vainilla</h4>
+				         <div id="disp_galleta">
+				        	Disponibles : 0
+				        </div>
+				        <p class="card-text">
+				        	Precio : $ 800
+				        </p>
+				        <a href="#" onclick = "comprando_galletas()" class="btn btn-primary">Comprar</a>
+				        <a href="#" onclick = "abasteciendo_galletas()" class="btn btn-success">Abastecer</a>
+				    </div>
+
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<div class="row">
+			<div class="col-lg-12 m-auto" align="center">
+				<a href="#" onclick ="cantidad_ventas()" class="btn btn-danger">Cantidad de Ventas</a>
+				<a href="#" onclick ="total_ventas()" class="btn btn-warning">Valor total de ventas</a>
+				<a href="#" onclick = "disp_Maquina()" class="btn btn-danger">% de Disponibilidad</a>
+				<a href="#" onclick = "unidades_vendidas()" class="btn btn-warning">Unidades vendidas</a>
+			</div>
+		</div>	
+</div>
+</body>
+</html>

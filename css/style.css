@@ -1,0 +1,12 @@
+/* Your custom styles */
+
+h1{
+	font-family: 'Rammetto One', cursive;
+	color: rgb(247, 251, 252);
+}
+#et{
+	font-family: 'Rammetto One', cursive;
+}
+body{
+	background: #0099CC;
+}
